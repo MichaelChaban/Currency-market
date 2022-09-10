@@ -1,0 +1,22 @@
+﻿<Window x:Class="Test_Task.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test_Task"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Loaded="Grid_Loaded" SizeChanged="Grid_SizeChanged">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ToolBar x:Name="Menu" HorizontalAlignment="Center" Height="29" VerticalAlignment="Top" Width="800" Background="Black" SnapsToDevicePixels="True" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False">
+            <Button Content="Home" VerticalAlignment="Top" Height="26" Click="Button_Click_1" FontWeight="Normal" FontFamily="Times New Roman" Foreground="Black" BorderBrush="{x:Null}" Background="White"/>
+        </ToolBar>
+        <DockPanel Margin="208,69,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="384">
+            <TextBox x:Name="searchInput" TextWrapping="Wrap" VerticalContentAlignment="Center" TextChanged="searchInput_TextChanged" BorderBrush="#FFABADB3" Width="337"/>
+            <Button x:Name="button" BorderBrush="{x:Null}" Background="Black" Content="Search" Foreground="White" Width="47" Height="25" Click="button_Click_2"/>
+        </DockPanel>
+        <DataGrid x:Name="coinsList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="208,99,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" HorizontalAlignment="Left" Width="582"/>
+    </Grid>
+</Window>
