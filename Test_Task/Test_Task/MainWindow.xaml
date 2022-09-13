@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test_Task"
         mc:Ignorable="d"
-        Title="Home" Height="450" Width="800" SizeChanged="Window_SizeChanged" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" HorizontalAlignment="Center" VerticalAlignment="Center" UseLayoutRounding="False" ResizeMode="CanResize" SizeToContent="Manual" WindowStartupLocation="CenterScreen" WindowState="Normal">
+        Title="Home" Height="450" Width="800" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" HorizontalAlignment="Center" VerticalAlignment="Center" UseLayoutRounding="False" ResizeMode="CanResize" SizeToContent="Manual" WindowStartupLocation="CenterScreen" WindowState="Normal">
     <Grid Loaded="Grid_Loaded">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>

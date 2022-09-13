@@ -5,9 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test_Task"
         mc:Ignorable="d"
-        Title="Details" Height="450" Width="800">
+        Title="Details" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid Loaded="Grid_Loaded">
-        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" HorizontalAlignment="Center" Width="582" CanUserAddRows="False" CanUserDeleteRows="False" CanUserReorderColumns="False" IsReadOnly="True" EnableColumnVirtualization="True" ColumnWidth="*" Margin="0,60,0,0" CanUserResizeColumns="False"/>
-        <Label x:Name="label" Content="_" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="26" FontWeight="Bold"/>
+        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" VerticalAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}" HorizontalAlignment="Center" Width="582" CanUserAddRows="False" CanUserDeleteRows="False" CanUserReorderColumns="False" IsReadOnly="True" EnableColumnVirtualization="True" ColumnWidth="*" CanUserResizeColumns="False" Height="199"/>
+        <Label x:Name="label" Content="_" HorizontalAlignment="Center" Margin="0,68,0,0" VerticalAlignment="Top" FontSize="26" FontWeight="Bold"/>
+        <ToolBar x:Name="menu" HorizontalAlignment="Center" Height="29" VerticalAlignment="Top" HorizontalContentAlignment="Center" SnapsToDevicePixels="True" ScrollViewer.VerticalScrollBarVisibility="Hidden" UseLayoutRounding="False" ScrollViewer.HorizontalScrollBarVisibility="Hidden" FontStyle="Normal" FontFamily="Arial Rounded MT Bold" VerticalContentAlignment="Center" FlowDirection="LeftToRight" Background="#FFA1CDFF">
+            <Button x:Name="home" Content="Home" Background="White" Click="home_Click"/>
+        </ToolBar>
     </Grid>
 </Window>
