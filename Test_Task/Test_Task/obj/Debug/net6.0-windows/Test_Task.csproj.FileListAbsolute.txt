@@ -50,3 +50,5 @@ C:\Users\User\Desktop\Миша\Digital Cloud Technologies\Currency-market\Test_T
 C:\Users\User\Desktop\Миша\Digital Cloud Technologies\Currency-market\Test_Task\Test_Task\obj\Debug\net6.0-windows\Test_Task.pdb
 C:\Users\User\Desktop\Миша\Digital Cloud Technologies\Currency-market\Test_Task\Test_Task\obj\Debug\net6.0-windows\Test_Task.genruntimeconfig.cache
 C:\Users\User\Desktop\Миша\Digital Cloud Technologies\Currency-market\Test_Task\Test_Task\obj\Debug\net6.0-windows\ref\Test_Task.dll
+C:\Users\User\Desktop\Миша\Digital Cloud Technologies\Currency-market\Test_Task\Test_Task\obj\Debug\net6.0-windows\Exchange.g.cs
+C:\Users\User\Desktop\Миша\Digital Cloud Technologies\Currency-market\Test_Task\Test_Task\obj\Debug\net6.0-windows\Exchange.baml
